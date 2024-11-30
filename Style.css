@@ -255,38 +255,41 @@ body {
         text-align: left;
     }
 
-    .bento-grid.box:nth-child(1) .lg-text {
+    .bento-grid .box:nth-child(1) .lg-text {
         font-size: 2.5rem;
     }
 
-    .bento-grid.box:nth-child(1) img {
+    .bento-grid .box:nth-child(1) img {
         width: 250px;
     }
 
-    .bento-grid.box:nth-child(3) {
+    .bento-grid .box:nth-child(3) {
         padding: 2.75rem 1rem 2.5rem 1rem;
     } 
 
-    .bento-grid.box:nth-child(3) .lg-text {
+    .bento-grid .box:nth-child(3) .lg-text {
         font-size: 2.25rem;
     }
 
-    .bento-grid.box:nth-child(3) img {
+    .bento-grid .box:nth-child(3) img {
         margin: 1rem 0;
         position: initial;
         height: initial;
     }
 
-    .bento-grid.box:nth-child(5) p {
+    .bento-grid .box:nth-child(5) p {
         margin-top: 10rem;
     } 
 
-    .bento-grid.box:nth-child(8) {
+    .bento-grid .box:nth-child(8) {
         padding: 1.5rem 4rem;
     } 
 
     .xlg-text {
         font-size: 2.75rem;
+    }
+    .bento-grid .box:nth-child(8) .lg-text {
+        font-size: 2rem;
     }
 }
 
